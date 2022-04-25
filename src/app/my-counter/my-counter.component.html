@@ -1,0 +1,10 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mb-3"><h4>Current Count: {{ count$ | async }}</h4></div>
+            <button (click)="decrement()" class="btn btn-primary mx-2">Decrement</button>
+            <button (click)="increment()" class="btn btn-primary">Increment</button>
+            <button (click)="reset()" class="btn btn-secondary mx-2">Reset Counter</button>
+        </div>
+    </div>
+</div>
